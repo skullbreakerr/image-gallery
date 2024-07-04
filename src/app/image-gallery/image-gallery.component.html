@@ -1,0 +1,5 @@
+<div class="image-gallery">
+    <div *ngFor="let image of data[selectedCategories]" class="image-container">
+        <img [src]="image['image-url']" [alt]="image.description">
+    </div>
+</div>
